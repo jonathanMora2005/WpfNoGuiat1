@@ -34,6 +34,18 @@ namespace WpfNoGuiat1
 
             }
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            if (Checkbox.IsChecked == true)
+            {
+                if (int.TryParse(Checkbox.Content.ToString(), out int currentValue))
+                {
+                    Checkbox.Content = currentValue + 1;
+                }
+             
+            }
+        }
     }
 
     

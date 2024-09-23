@@ -20,7 +20,7 @@
         Margin="10" Grid.Row="1" Grid.Column="0" Click="Click"/>
         
         <Button Content="b2" Width="100" Height="30" 
-        Margin="10" Grid.Row="1" Grid.Column="1"/>
+        Margin="10" Grid.Row="1" Grid.Column="1" Click="Button_Click"/>
         <CheckBox Name="Checkbox" Content="0" 
        Margin="10,40,0,0" VerticalAlignment="Top" 
        />
